@@ -69,5 +69,19 @@ Ele serve como referência rápida para consultores e desenvolvedores no dia a d
 
 ## 📌 Observações
 - Algumas transações antigas ainda são usadas, mas muitas foram substituídas por ferramentas mais modernas no **ABAP Development Tools (Eclipse)**.  
-- Em projetos SAP S/4HANA, o **Eclipse/ADT** é recomendado como ambiente principal para **CDS**, **RAP** e extensões modernas.  
+- Em projetos SAP S/4HANA, o **Eclipse/ADT** é recomendado como ambiente principal para **CDS**, **RAP** e extensões modernas.
+
+- ## Dica Extra: Uso de `/n` e `/o` no SAP GUI
+
+No **SAP GUI**, você pode controlar como abrir transações usando comandos especiais:
+
+- **`/n<Transação>`** → Abre a transação **na mesma janela**, encerrando a atual.  
+  - Exemplo: `/nSE11` → abre a transação SE11 (dicionário ABAP) substituindo a tela atual.
+
+- **`/o<Transação>`** → Abre a transação **em uma nova janela** do SAP GUI, mantendo a atual aberta.  
+  - Exemplo: `/oSE38` → abre a transação SE38 (editor de programas ABAP) em uma nova aba/janela.
+
+- **`/o`** (sem transação) → Lista todas as janelas (sessões) abertas do SAP, permitindo criar uma nova ou navegar entre elas.
+
+Esses atalhos são especialmente úteis no dia a dia, pois permitem alternar entre desenvolvimento, testes e execução de relatórios sem precisar encerrar sessões importantes.
 
