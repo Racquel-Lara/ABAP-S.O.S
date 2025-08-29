@@ -81,3 +81,6 @@ CALL FUNCTION 'ZFM_SOMA_NUMEROS'
     ev_resultado = lv_resultado.
 
 WRITE: / 'Resultado da soma:', lv_resultado.
+
+Resultado da soma: 12
+
